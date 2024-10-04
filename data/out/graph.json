@@ -1,0 +1,101 @@
+{
+    "DIPHENHYDRAMINE": {
+        "Journal of emergency nursing": {
+            "pubmed": [
+                "A 44-year-old man with erythema of the face diphenhydramine, neck, and chest, weakness, and palpitations",
+                "An evaluation of benadryl, pyribenzamine, and other so-called diphenhydramine antihistaminic drugs in the treatment of allergy."
+            ],
+            "clinical": [
+                "Use of Diphenhydramine as an Adjunctive Sedative for Colonoscopy in Patients Chronically on Opioids",
+                "Phase 2 Study IV QUZYTTIR\u2122 (Cetirizine Hydrochloride Injection) vs V Diphenhydramine",
+                "Feasibility of a Randomized Controlled Clinical Trial Comparing the Use of Cetirizine to Replace Diphenhydramine in the Prevention of Reactions Related to Paclitaxel"
+            ]
+        },
+        "The Journal of pediatrics": {
+            "pubmed": [
+                "Diphenhydramine hydrochloride helps symptoms of ciguatera fish poisoning."
+            ],
+            "clinical": []
+        }
+    },
+    "TETRACYCLINE": {
+        "Journal of food protection": {
+            "pubmed": [
+                "Tetracycline Resistance Patterns of Lactobacillus buchneri Group Strains."
+            ],
+            "clinical": []
+        },
+        "American journal of veterinary research": {
+            "pubmed": [
+                "Appositional Tetracycline bone formation rates in the Beagle."
+            ],
+            "clinical": []
+        },
+        "Psychopharmacology": {
+            "pubmed": [
+                "Rapid reacquisition of contextual fear following extinction in mice: effects of amount of extinction, tetracycline acute ethanol withdrawal, and ethanol intoxication."
+            ],
+            "clinical": []
+        }
+    },
+    "ETHANOL": {
+        "Psychopharmacology": {
+            "pubmed": [
+                "Rapid reacquisition of contextual fear following extinction in mice: effects of amount of extinction, tetracycline acute ethanol withdrawal, and ethanol intoxication."
+            ],
+            "clinical": []
+        }
+    },
+    "ATROPINE": {
+        "The journal of maternal-fetal & neonatal medicine": {
+            "pubmed": [
+                "Comparison of pressure BETAMETHASONE release, phonophoresis and dry needling in treatment of latent myofascial trigger point of upper trapezius ATROPINE muscle."
+            ],
+            "clinical": []
+        }
+    },
+    "EPINEPHRINE": {
+        "The journal of allergy and clinical immunology. In practice": {
+            "pubmed": [
+                "The High Cost of Epinephrine Autoinjectors and Possible Alternatives.",
+                "Time to epinephrine treatment is associated with the risk of mortality in children who achieve sustained ROSC after traumatic out-of-hospital cardiac arrest."
+            ],
+            "clinical": []
+        },
+        "Journal of emergency nursing": {
+            "pubmed": [],
+            "clinical": [
+                "Tranexamic Acid Versus Epinephrine During Exploratory Tympanotomy"
+            ]
+        }
+    },
+    "ISOPRENALINE": {
+        "Journal of photochemistry and photobiology. B, Biology": {
+            "pubmed": [
+                "Gold nanoparticles synthesized from Euphorbia fischeriana root by green route method alleviates the isoprenaline hydrochloride induced myocardial infarction in rats."
+            ],
+            "clinical": []
+        }
+    },
+    "BETAMETHASONE": {
+        "The journal of maternal-fetal & neonatal medicine": {
+            "pubmed": [
+                "Clinical implications of umbilical artery Doppler changes after betamethasone administration",
+                "Comparison of pressure BETAMETHASONE release, phonophoresis and dry needling in treatment of latent myofascial trigger point of upper trapezius ATROPINE muscle."
+            ],
+            "clinical": []
+        },
+        "Journal of back and musculoskeletal rehabilitation": {
+            "pubmed": [
+                "Effects of Topical Application of Betamethasone on Imiquimod-induced Psoriasis-like Skin Inflammation in Mice."
+            ],
+            "clinical": []
+        },
+        "H\u00f4pitaux Universitaires de Gen\u00e8ve": {
+            "pubmed": [],
+            "clinical": [
+                "Preemptive Infiltration With Betamethasone and Ropivacaine for Postoperative Pain in Laminoplasty or  Laminectomy"
+            ]
+        }
+    }
+}
