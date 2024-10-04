@@ -1,0 +1,16 @@
+Quels sont les éléments à considérer pour faire évoluer votre code afin qu’il puisse gérer de grosses
+volumétries de données (fichiers de plusieurs To ou millions de fichiers par exemple) ?
+
+Comme solution de base, nous pouvons profiter du multiprocessing pour rendre le traitement parallèle.
+Il est également important de prendre en compte l'accès à des types de fichiers spécifiques,
+en utilisant un accès par lots pour éviter de surcharger la RAM. De plus, nous pourrions envisager
+de passer à un système distribué, comme un cluster, ou même d'opter pour une solution dans le cloud.
+
+Pourriez-vous décrire les modifications qu’il faudrait apporter, s’il y en a, pour prendre en considération de
+telles volumétries ?
+
+Comme exemple, nous pouvons stocker les fichiers sur HDFS et utiliser Apache Spark pour les traiter.
+Une autre option consiste à déposer les fichiers dans Google Cloud Storage
+et à utiliser un service comme Dataflow pour le traitement. Bien sûr, le code devra
+être réécrit pour s'adapter à l'environnement d'exécution choisi, en tenant compte
+des spécificités de chaque plateforme et des bibliothèques disponibles.

@@ -1,0 +1,40 @@
+SELECT 
+    date,
+    SUM(prod_price * prod_qty) AS ventes
+FROM (
+    SELECT 
+        STR_TO_DATE(t.date, '%d/%m/%y') AS date,
+        t.prod_price,
+        t.prod_qty
+    FROM 
+        TRANSACTIONS t
+) AS subquery
+WHERE 
+    date BETWEEN '2020-01-01' AND '2020-12-31'
+GROUP BY 
+    date
+ORDER BY 
+    date;
+
+-------------------------------------------------------------------------------------------------------------------
+Ou s'il n'y a pas de problème sur l'énoncé et qu'il faut chercher les date pour 2019, il faut corriger la requette.
+-------------------------------------------------------------------------------------------------------------------
+
+SELECT 
+    t.client_id AS client_id,
+    SUM(CASE WHEN p.product_type = 'MEUBLE' THEN t.prod_price * t.prod_qty ELSE 0 END) AS ventes_meuble,
+    SUM(CASE WHEN p.product_type = 'DECO' THEN t.prod_price * t.prod_qty ELSE 0 END) AS ventes_deco
+FROM 
+    TRANSACTIONS t
+JOIN 
+    PRODUCT_NOMENCLATURE p ON t.prod_id = p.product_id
+WHERE 
+    STR_TO_DATE(t.date, '%d/%m/%y') BETWEEN '2020-01-01' AND '2020-12-31'
+GROUP BY 
+    t.client_id
+ORDER BY 
+    t.client_id;
+
+-------------------------------------------------------------------------------------------------------------------
+Ou s'il n'y a pas de problème sur l'énoncé et qu'il faut chercher les date pour 2019, il faut corriger la requette.
+-------------------------------------------------------------------------------------------------------------------
